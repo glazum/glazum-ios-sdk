@@ -126,13 +126,13 @@ The value will be stored permanently. To remove it call setCustomVariable with n
 	
 ##Setting Glazum options
 
-GlazumOptionDebug
+###GlazumOptionDebug
 
 If you need Glazum log messages in your console, just set GlazumOptionDebug option like this:
 
 	[Glazum setOptions:@{GlazumOptionDebug:@YES}];
 
-GlazumOptionDebugLogHandler
+###GlazumOptionDebugLogHandler
 
 If you have your own custom logger, you can set custom block to receive all debug messages
 
