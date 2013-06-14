@@ -5,6 +5,7 @@
 Just create new question, bind it to a marker in your app and decide who and when should see it. All answers get collected and processed automatically.
 You can see and manage them in the dashboard page in real time.
 
+An example of Glazum API usage you can see [here](https://github.com/glazum/glazum-ios-example) 
 
 ##Considerations
 
