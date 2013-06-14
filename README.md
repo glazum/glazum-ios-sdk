@@ -44,7 +44,7 @@ Glazum SDK works with iOS 4.3+, armv7+armv7s, with both device and simulator sup
 
 
         section. This will give you access to the SDK across all files.
-    2. Get your Application IPD which you can find at [http://www.glazum.com/dashboard/](Glazum Dashboard)
+    2. Get your Application IPD which you can find at [Glazum Dashboard](http://www.glazum.com/dashboard/)
     3. Launch Glazum with your Application ID
 
 		- (BOOL) application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {   
