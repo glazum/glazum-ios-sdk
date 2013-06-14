@@ -1,6 +1,6 @@
 ##Introduction
 
-Glazum is a simple and effective tool for collecting feedback from your iOS users. Ask them any question you like at any moment you wish!
+[Glazum](http://www.glazum.com) is a simple and effective tool for collecting feedback from your iOS users. Ask them any question you like at any moment you wish!
 
 Just create new question, bind it to a marker in your app and decide who and when should see it. All answers get collected and processed automatically.
 You can see and manage them in the dashboard page in real time.
