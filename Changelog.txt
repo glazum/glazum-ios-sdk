@@ -1,6 +1,12 @@
 Glazum SDK for iOS Changelog
 
 --------------------------------------------
+Version: 0.1.4 (02 July 2013)
+--------------------------------------------
+* Use https for fetching questions and 
+  sending answers
+
+--------------------------------------------
 Version: 0.1.3 (21 June 2013)
 --------------------------------------------
 * Minor changes
