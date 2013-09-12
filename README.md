@@ -79,7 +79,7 @@ where `kQuestionWithSingleLineTextAnswer` is one of the five available question 
 		kQuestionWithSingleAnswerSelection,
 		kQuestionWithMultipleAnswerSelection,
 		kQuestionWithNetPromoterScore
-	}QuestionType;
+	}GlazumQuestionType;
 	
 ##Before and after callbacks
 

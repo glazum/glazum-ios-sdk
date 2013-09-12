@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-typedef void (^QuestionBeforeCodeBlock)(BOOL willShowQuestion);
-typedef void (^QuestionAfterCodeBlock)(BOOL questionWasShown);
+typedef void (^GlazumQuestionBeforeCodeBlock)(BOOL willShowQuestion);
+typedef void (^GlazumQuestionAfterCodeBlock)(BOOL questionWasShown);
 
 typedef enum {
     kQuestionWithSingleLineTextAnswer,
@@ -17,7 +17,7 @@ typedef enum {
     kQuestionWithSingleAnswerSelection,
     kQuestionWithMultipleAnswerSelection,
     kQuestionWithNetPromoterScore
-} QuestionType;
+} GlazumQuestionType;
 
 extern NSString *const GlazumOptionDebug; // Default value is @NO. Prints debug logs using NSLog
 extern NSString *const GlazumOptionDebugLogHandler;
@@ -33,11 +33,11 @@ extern NSString *const GlazumOptionDebugLogHandler;
 
 + (void)setMarker:(NSString *)markerName;
 + (void)setMarker:(NSString *)markerName
-         doBefore:(QuestionBeforeCodeBlock)beforeQuestionBlock
-          doAfter:(QuestionAfterCodeBlock)afterQuestionBlock;
+         doBefore:(GlazumQuestionBeforeCodeBlock)beforeQuestionBlock
+          doAfter:(GlazumQuestionAfterCodeBlock)afterQuestionBlock;
 
-+ (void)testQuestionWithType:(QuestionType)type;
-+ (void)testQuestionWithType:(QuestionType)type
-                    doBefore:(QuestionBeforeCodeBlock)beforeQuestionBlock
-                     doAfter:(QuestionAfterCodeBlock)afterQuestionBlock;
++ (void)testQuestionWithType:(GlazumQuestionType)type;
++ (void)testQuestionWithType:(GlazumQuestionType)type
+                    doBefore:(GlazumQuestionBeforeCodeBlock)beforeQuestionBlock
+                     doAfter:(GlazumQuestionAfterCodeBlock)afterQuestionBlock;
 @end
