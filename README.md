@@ -11,9 +11,37 @@ An example of Glazum API usage you can see [here](https://github.com/glazum/glaz
 
 Information gathered by the SDK is sent to the Glazum website in real time.
 
-Glazum SDK works with iOS 4.3+, armv7+armv7s, with both device and simulator support. It has been tested using Xcode 4.0.
+Glazum SDK works with iOS 4.3+, armv7+armv7s, with both device and simulator support. It has been tested using Xcode 4.x and Xcode 5.0
+
 
 ##Integration
+
+### Using CocoaPods
+
+[CocoaPods](http://cocoapods.org/) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like Glazum in your projects.
+
+#### Download CocoaPods
+
+CocoaPods is distributed as a ruby gem, and is installed by running the following commands in Terminal.app:
+	$ sudo gem install cocoapods
+	$ pod setup
+
+#### Create a Podfile
+
+Project dependencies to be managed by CocoaPods are specified in a file called Podfile. Create this file in the same directory as your Xcode project (.xcodeproj) file:
+
+	$ edit Podfile
+	pod 'Glazum', '~> 0.2'
+	
+#### Install Dependencies
+
+Now you can install the dependencies in your project:
+	$ pod install
+
+From now on, be sure to always open the generated Xcode workspace (.xcworkspace) instead of the project file when building your project:
+	$ open YourProject.xcworkspace
+	
+### Manual integration
 
 1. Add Glazum.framework files to your project: File -&gt; Add Files to " "
     1. Find and select the folder that contains the SDK
