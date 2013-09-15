@@ -2,10 +2,12 @@
 
 [Glazum](http://www.glazum.com) is a simple and effective tool for collecting feedback from your iOS users. Ask them any question you like at any moment you wish!
 
+![](https://raw.github.com/glazum/glazum-ios-example/master/screenshots/screenshot.gif)
+
 Just create new question, bind it to a marker in your app and decide who and when should see it. All answers get collected and processed automatically.
 You can see and manage them in the dashboard page in real time.
 
-An example of Glazum API usage you can see [here](https://github.com/glazum/glazum-ios-example) 
+An example of Glazum API usage you can see [on Github](https://github.com/glazum/glazum-ios-example) 
 
 ##Considerations
 
@@ -23,23 +25,23 @@ Glazum SDK works with iOS 4.3+, armv7+armv7s, with both device and simulator sup
 #### Download CocoaPods
 
 CocoaPods is distributed as a ruby gem, and is installed by running the following commands in Terminal.app:
-	$ sudo gem install cocoapods
-	$ pod setup
+	`$ sudo gem install cocoapods
+	 $ pod setup`
 
 #### Create a Podfile
 
 Project dependencies to be managed by CocoaPods are specified in a file called Podfile. Create this file in the same directory as your Xcode project (.xcodeproj) file:
 
 	$ edit Podfile
-	pod 'Glazum', '~> 0.2'
+	pod 'Glazum', '~> 0.2'`
 	
 #### Install Dependencies
 
 Now you can install the dependencies in your project:
-	$ pod install
+	`$ pod install`
 
 From now on, be sure to always open the generated Xcode workspace (.xcworkspace) instead of the project file when building your project:
-	$ open YourProject.xcworkspace
+	`$ open YourProject.xcworkspace`
 	
 ### Manual integration
 
