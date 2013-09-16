@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
  OTHER DEALINGS IN THE SOFTWARE.
 ' }
-  s.author       = 'Glazum'
+  s.author       = { 'Glazum' => "support@glazum.com" }
   s.platform     = :ios
   s.source       = { :git => "https://github.com/glazum/glazum-ios-sdk.git", :tag => s.version.to_s  }
   s.public_header_files = 'Glazum.framework/Headers/*.h'
