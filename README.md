@@ -18,7 +18,7 @@ Glazum SDK works with iOS 4.3+, armv7+armv7s, with both device and simulator sup
 
 ##Integration
 
-<!-- ### Using CocoaPods
+### Using CocoaPods
 
 [CocoaPods](http://cocoapods.org/) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like Glazum in your projects.
 
@@ -41,7 +41,7 @@ Now you can install the dependencies in your project:
 	`$ pod install`
 
 From now on, be sure to always open the generated Xcode workspace (.xcworkspace) instead of the project file when building your project:
-	`$ open YourProject.xcworkspace` -->
+	`$ open YourProject.xcworkspace`
 	
 ### Manual integration
 
