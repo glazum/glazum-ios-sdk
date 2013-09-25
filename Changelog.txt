@@ -1,6 +1,12 @@
 Glazum SDK for iOS Changelog
 
 --------------------------------------------
+Version: 0.2.1 (25 September 2013)
+--------------------------------------------
+* Better support of iOS 7
+* Spelling
+
+--------------------------------------------
 Version: 0.2 (12 September 2013)
 --------------------------------------------
 * Prevent potentially duplicate symbol errors
