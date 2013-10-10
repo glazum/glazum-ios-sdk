@@ -7,6 +7,8 @@ Version: 0.2.2 (09 October 2013)
 * Send answer when user press "Done" keyboard 
   button in case of single answer selection
   type
+* Increase close button hit area
+* Minor enhancments
 
 --------------------------------------------
 Version: 0.2.1 (25 September 2013)
