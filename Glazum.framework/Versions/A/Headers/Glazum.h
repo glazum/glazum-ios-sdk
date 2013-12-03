@@ -11,13 +11,13 @@
 typedef void (^GlazumQuestionBeforeCodeBlock)(BOOL willShowQuestion);
 typedef void (^GlazumQuestionAfterCodeBlock)(BOOL questionWasShown);
 
-typedef enum {
+typedef NS_ENUM(NSInteger, GlazumQuestionType) {
     kQuestionWithSingleLineTextAnswer,
     kQuestionWithMultiLineTextAnswer,
     kQuestionWithSingleAnswerSelection,
     kQuestionWithMultipleAnswerSelection,
     kQuestionWithNetPromoterScore
-} GlazumQuestionType;
+};
 
 extern NSString *const GlazumOptionDebug; // Default value is @NO. Prints debug logs using NSLog
 extern NSString *const GlazumOptionDebugLogHandler;
