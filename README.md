@@ -13,7 +13,7 @@ An example of Glazum API usage you can see [on Github](https://github.com/glazum
 
 Information gathered by the SDK is sent to the Glazum website in real time.
 
-Glazum SDK works with iOS 4.3+, armv7+armv7s, with both device and simulator support. It has been tested using Xcode 4.x and Xcode 5.0
+Glazum SDK works with iOS 6+, armv7+armv7s and arm64, with both device and simulator support. It has been tested using Xcode 5.x
 
 
 ##Integration
@@ -33,7 +33,7 @@ CocoaPods is distributed as a ruby gem, and is installed by running the followin
 Project dependencies to be managed by CocoaPods are specified in a file called Podfile. Create this file in the same directory as your Xcode project (.xcodeproj) file:
 
 	$ edit Podfile
-	pod 'Glazum', '~> 0.2'`
+	pod 'Glazum', '~> 0.3'`
 	
 #### Install Dependencies
 
