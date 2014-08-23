@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Glazum"
-  s.version      = "0.2.2"
+  s.version      = "0.4"
   s.summary      = "Glazum SDK framework for iOS"
   s.description  = <<-DESC
  Glazum is a simple and effective tool for collecting feedback from your iOS users and asking them any question you like at any moment you wish!
@@ -35,4 +35,5 @@ Pod::Spec.new do |s|
   s.preserve_paths = 'Glazum.framework/*'
   s.frameworks   = 'Glazum', 'UIKit', 'CoreGraphics'
   s.xcconfig     = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/Glazum"' }
+  s.requires_arc = true
 end
