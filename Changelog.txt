@@ -1,6 +1,13 @@
 Glazum SDK for iOS Changelog
 
 --------------------------------------------
+Version: 0.4 (23 August 2014)
+--------------------------------------------
+* Drop iOS 5.0 support
+* Use CFBundleShortVersionString instead of 
+  CFBundleVersion to detect current version
+
+--------------------------------------------
 Version: 0.3 (04 December 2013)
 --------------------------------------------
 * Add support for 64 bit architectures
